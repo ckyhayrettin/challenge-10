@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7e79b95b73.js" crossorigin="anonymous"></script>
+    <title>Tip calculator app</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="logo">
+            <img src="./images/logo.svg" alt="logo">
+        </div>
+        <div class="calculator">
+            <div class="left">
+                <div class="left__head">
+                    <p class="left__title"></p>
+                    <div class="left__panel">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="left__number">142.55</p>
+                    </div>
+                </div>
+                <div class="left__body">
+                    <div class="left__body-top">
+                        <p class="left__title">Select Tip %</p>
+                    </div>
+                    <div class="left__body-bottom">
+                        <div class="left__grid-top">
+                            <button class="left__buttons">5%</button>
+                            <button class="left__buttons">10%</button>
+                            <button class="left__buttons">15%</button>
+                        </div>
+                        <div class="left__grid-bottom">
+                            <button class="left__buttons">25%</button>
+                            <button class="left__buttons">50%</button>
+                            <input class="left__body-input" type="number" placeholder="0">
+                        </div>
+                    </div>
+                </div>
+                <div class="left-footer">
+                    <div class="left__footer-top">
+                        <p class="left__title">number of People</p>
+                        <p class="left__title-warning">Can't be Zero</p>
+                    </div>
+                    <div class="left__footer-bottom">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="number" class="left__footer-input" placeholder="5">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right__head">
+                    <div class="right__top">
+                        <div class="right__text">
+                            <h2 class="right__h2">Tip Amount</h2>
+                            <p class="person">/ person</p>
+                        </div>
+                        <div class="right__number">
+                            $4.27
+                        </div>
+                    </div>
+                    <div class="right__bottom">
+                        <div class="right__text">
+                            <h2 class="right__h2">Tip Amount</h2>
+                            <p class="person">/ person</p>
+                        </div>
+                        <div class="right__number">
+                            $4.27
+                        </div>
+                    </div>
+                </div>
+                <div class="right__footer">
+                    <button class="right__reset">reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

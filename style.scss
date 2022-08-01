@@ -1,0 +1,121 @@
+:root {
+    --clr-Strong-cyan: hsl(172, 67%, 45%);
+    --clr-Very-dark-cyan: hsl(183, 100%, 15%);
+    --clr-Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --clr-Grayishcyan: hsl(184, 14%, 56%);
+    --clr-Light-grayish-cyan: hsl(185, 41%, 84%);
+    --clr-Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Font-size: 24px; // (form inputs)
+    --clr-font-family: 'Space Mono', monospace;
+}
+
+* {
+    font-family: var(--clr-font-family);
+    font-size: 1rem;
+    color: var(--clr-Light-grayish-cyan);
+}
+
+body {
+    background-color: var(--clr-Light-grayish-cyan);
+}
+
+.container {
+    height: 38.875rem;
+    width: 60% !important;
+}
+
+.calculator {
+    //height: 30.0625rem;
+
+    background-color: var(--clr-White);
+}
+
+.dollar {
+    background-color: var(--clr-Very-light-grayish-cyan) !important;
+
+}
+
+.fa-dollar {
+    color: var(--clr-Dark-grayish-cyan) !important;
+}
+
+.input-dollar {
+    color: var(--clr-Very-dark-cyan) !important;
+    background-color: var(--clr-Very-light-grayish-cyan) !important;
+    border-left: none;
+}
+
+button {
+    width: 7.25rem;
+    background-color: var(--clr-Very-dark-cyan) !important;
+
+    &:hover {
+        background-color: var(--clr-Strong-cyan) !important;
+        color: var(--clr-Very-dark-cyan) !important;
+    }
+}
+
+.custum {
+    background-color: var(--clr-Light-grayish-cyan) !important;
+    color: var(--clr-Dark-grayish-cyan) !important;
+}
+
+.user {
+    background-color: var(--clr-Very-light-grayish-cyan) !important;
+
+}
+
+.fa-user {
+    color: var(--clr-Dark-grayish-cyan) !important;
+}
+
+.input-number {
+    color: var(--clr-Very-dark-cyan) !important;
+    background-color: var(--clr-Very-light-grayish-cyan) !important;
+    border-left: none;
+}
+
+.right {
+    background-color: var(--clr-Very-dark-cyan) !important;
+
+}
+
+.right-head {
+    width: 100%;
+}
+
+.head-top {
+    width: 100%;
+}
+
+h4 {
+    font-size: 11px;
+}
+
+h6 {
+    font-size: 9px;
+}
+
+.head-bottom {
+    width: 100%;
+}
+
+.total-number {
+    font-size: 2.1rem;
+    color: var(--clr-Strong-cyan) !important;
+}
+
+.right-bottom {
+    width: 100%;
+}
+
+.reset {
+    width: 100%;
+    background-color: var(--clr-Strong-cyan) !important;
+
+    &:hover {
+        background-color: var(--clr-Light-grayish-cyan) !important;
+        color: var(--clr-Very-dark-cyan) !important;
+    }
+}
